@@ -1,4 +1,5 @@
-﻿
+﻿// Задайте произвольный массив. Выведете его элементы, начиная с конца. 
+// Использовать рекурсию, не использовать циклы.
 
 Console.Clear();
 Console.WriteLine("Введите размер массива: ");
@@ -33,7 +34,5 @@ void ElementEndStart(int[] Array, int n)
     }
     else Console.WriteLine(Array[0]);
 }
-{
-    int[] num = array;
-    ElementEndStart(num, num.Length - 1);
-}
+int[] num = array;
+ElementEndStart(num, num.Length - 1);
